@@ -107,10 +107,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1          &kp F2        &kp F3        &kp F4        &kp F5                         &kp F6         &kp F7    &kp F8  &kp F9     &kp F10
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans      &kp F13    &kp NUMBER_6   &kp N7    &kp N8  &kp N9     &kp N0
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans      &trans     &kp LEFT       &kp DOWN  &kp UP  &kp RIGHT  &kp F11
-&trans          &trans        &trans        &trans        &trans  &trans      &kp RCTRL  &kp RIGHT_GUI                               &kp F12
+&kp F1          &kp F2        &kp F3        &kp F4        &kp F5                         &kp DOWN_ARROW  &kp RIGHT  &kp F8  &kp F9     &kp F10
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans      &kp F13    &kp LEFT        &kp N7     &kp N8  &kp N9     &kp N0
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans      &trans     &kp UP_ARROW    &kp DOWN   &kp UP  &kp RIGHT  &kp F11
+&trans          &trans        &trans        &trans        &trans  &trans      &kp RCTRL  &kp RIGHT_GUI                                 &kp F12
             >;
         };
 
