@@ -1,4 +1,5 @@
 #include "roBa.dtsi"
+#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -14,12 +15,25 @@
             ;
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        18 // mb1
+        19 // mb2
+    >;
+};
+
 / {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 5 10000>;
     };
+};
+
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 5 10000>;
 };
 
 &pinctrl {
