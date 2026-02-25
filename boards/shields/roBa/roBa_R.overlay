@@ -20,6 +20,7 @@
         18 // mb1
         19 // mb2
     >;
+    require-prior-idle-ms = <200>;
 };
 
 / {
