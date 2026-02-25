@@ -149,7 +149,7 @@
         SCROLL {
             bindings = <
 &kp LS(AT)        &kp LS(EXCL)  &kp SQT       &kp LS(AMPS)   &kp LS(TILDE)                                          &kp LS(STAR)   &kp LS(UNDER)  &kp MINUS      &kp EQUAL      &kp LS(PLUS)
-&kp LEFT_BRACKET  &kp LS(LBRC)  &kp LS(LPAR)  &kp LS(CARET)  &kp LS(PRCNT)  &kp PRCNT             &kp ESC           &kp BSPC       &kp N          &kp LS(RPAR)   &kp LS(RBRC)   &kp RBKT
+&kp LEFT_BRACKET  &kp LS(LBRC)  &kp LS(LPAR)  &kp LS(CARET)  &kp LS(PRCNT)  &kp PRCNT             &kp ESC           &kp BSPC       &kp DOLLAR     &kp LS(RPAR)   &kp LS(RBRC)   &kp RBKT
 &kp GRAVE         &kp SQT       &kp LS(DQT)   &kp LS(PRCNT)  &none          &kp LS(LC(LBRC))      &kp LS(LC(RBRC))  &kp SEMI       &kp BSLH       &kp LS(COLON)  &kp LS(POUND)  &kp LS(PIPE)
 &kp PIPE          &trans        &trans        &trans         &trans         &trans                &kp RCTRL         &kp RIGHT_GUI                                               &trans
             >;
